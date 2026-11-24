@@ -1,0 +1,11 @@
+{
+  "name": "zeedan27-n8n-automations",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Curated and sanitized n8n workflow automation blueprints (AI/RAG, Telegram/Gmail assistants, PostgreSQL agents, and email threat triage) by Zesrab Tanjeel Khan (@zeedan27).",
+  "scripts": {
+    "sanitize": "node scripts/sanitize-workflow.mjs",
+    "check": "node scripts/sanitize-workflow.mjs --check"
+  }
+}

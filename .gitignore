@@ -1,0 +1,16 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies & Build
+node_modules/
+
+# Ephemeral Exports & Scratch
+.tmp/
+raw-exports/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
